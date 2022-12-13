@@ -1,0 +1,258 @@
+-- Lucix Convert
+-- Version: 4.1.2
+self = {}
+self.ScreenGui = Instance.new("ScreenGui")
+self.Outer = Instance.new("Frame")
+self.UIStroke = Instance.new("UIStroke")
+self.Frame = Instance.new("Frame")
+self.UIStroke_2 = Instance.new("UIStroke")
+self.UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+self.UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+self.TextLabel = Instance.new("TextLabel")
+self.Inner = Instance.new("Frame")
+self.UIStroke_3 = Instance.new("UIStroke")
+self.Frame_2 = Instance.new("Frame")
+self.UIStroke_4 = Instance.new("UIStroke")
+self.Frame_3 = Instance.new("Frame")
+self.UIStroke_5 = Instance.new("UIStroke")
+self.Frame_4 = Instance.new("Frame")
+self.UIStroke_6 = Instance.new("UIStroke")
+self.Frame_5 = Instance.new("Frame")
+self.UIStroke_7 = Instance.new("UIStroke")
+self.Frame_6 = Instance.new("Frame")
+self.UIStroke_8 = Instance.new("UIStroke")
+self.UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+self.UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+self.Main = Instance.new("Frame")
+self.UIGradient = Instance.new("UIGradient")
+self.Frame_7 = Instance.new("Frame")
+self.TextButton = Instance.new("TextButton")
+self.AntiAim = Instance.new("Frame")
+self.UIGradient_2 = Instance.new("UIGradient")
+self.Frame_8 = Instance.new("Frame")
+self.TextButton_2 = Instance.new("TextButton")
+self.UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+self.UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+self.accentbar = Instance.new("Frame")
+self.UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+self.UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+
+self.ScreenGui.Parent = game:GetService('CoreGui')
+
+self.Outer.Name = "Outer"
+self.Outer.Parent = self.ScreenGui
+self.Outer.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.Outer.Position = UDim2.new(0, 431, 0, 270)
+self.Outer.Size = UDim2.new(0, 432, 0, 289)
+
+self.UIStroke.Parent = self.Outer
+self.UIStroke.Thickness = 2.000
+self.UIStroke.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.Frame.Parent = self.Outer
+self.Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.Frame.Size = UDim2.new(0, 432, 0, 289)
+
+self.UIStroke_2.Parent = self.Frame
+self.UIStroke_2.Color = Color3.fromRGB(59, 59, 59)
+self.UIStroke_2.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.UIAspectRatioConstraint.Parent = self.Frame
+self.UIAspectRatioConstraint.AspectRatio = 1.493
+
+self.UIAspectRatioConstraint_2.Parent = self.Outer
+self.UIAspectRatioConstraint_2.AspectRatio = 1.493
+
+self.TextLabel.Parent = self.Outer
+self.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+self.TextLabel.BackgroundTransparency = 1.000
+self.TextLabel.Position = UDim2.new(0.0162222199, 0, 0.00271986588, 0)
+self.TextLabel.Size = UDim2.new(0, 416, 0, 17)
+self.TextLabel.Font = Enum.Font.SourceSans
+self.TextLabel.Text = "GAROLDKITTYCATBOT  [ BETA ]"
+self.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+self.TextLabel.TextSize = 13.000
+self.TextLabel.TextStrokeTransparency = 0.000
+self.TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+self.Inner.Name = "Inner"
+self.Inner.Parent = self.Outer
+self.Inner.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+self.Inner.Position = UDim2.new(0, 7, 0, 17)
+self.Inner.Size = UDim2.new(0, 419, 0, 265)
+
+self.UIStroke_3.Parent = self.Inner
+self.UIStroke_3.Color = Color3.fromRGB(59, 59, 59)
+self.UIStroke_3.Thickness = 2.000
+self.UIStroke_3.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.Frame_2.Parent = self.Inner
+self.Frame_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+self.Frame_2.Size = UDim2.new(0, 419, 0, 265)
+
+self.UIStroke_4.Parent = self.Frame_2
+self.UIStroke_4.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.Frame_3.Parent = self.Frame_2
+self.Frame_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.Frame_3.Position = UDim2.new(0, 6, 0, 9)
+self.Frame_3.Size = UDim2.new(0, 407, 0, 246)
+
+self.UIStroke_5.Parent = self.Frame_3
+self.UIStroke_5.Thickness = 2.000
+self.UIStroke_5.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.Frame_4.Parent = self.Frame_3
+self.Frame_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.Frame_4.Size = UDim2.new(0, 407, 0, 246)
+
+self.UIStroke_6.Parent = self.Frame_4
+self.UIStroke_6.Color = Color3.fromRGB(59, 59, 59)
+self.UIStroke_6.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.Frame_5.Parent = self.Frame_4
+self.Frame_5.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+self.Frame_5.Position = UDim2.new(0, 6, 0, 6)
+self.Frame_5.Size = UDim2.new(0, 101, 0, 233)
+
+self.UIStroke_7.Parent = self.Frame_5
+self.UIStroke_7.Color = Color3.fromRGB(59, 59, 59)
+self.UIStroke_7.Thickness = 2.000
+self.UIStroke_7.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.Frame_6.Parent = self.Frame_5
+self.Frame_6.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+self.Frame_6.Size = UDim2.new(0, 101, 0, 233)
+
+self.UIStroke_8.Parent = self.Frame_6
+self.UIStroke_8.LineJoinMode = Enum.LineJoinMode.Miter
+
+self.UIAspectRatioConstraint_3.Parent = self.Frame_6
+self.UIAspectRatioConstraint_3.AspectRatio = 0.433
+
+self.UIAspectRatioConstraint_4.Parent = self.Frame_5
+self.UIAspectRatioConstraint_4.AspectRatio = 0.433
+
+self.Main.Name = "Main"
+self.Main.Parent = self.Frame_5
+self.Main.Active = true
+self.Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.Main.BorderSizePixel = 0
+self.Main.Position = UDim2.new(0.0532789528, 0, 0.0292485058, 0)
+self.Main.Selectable = true
+self.Main.Size = UDim2.new(0, 89, 0, 18)
+
+self.UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+self.UIGradient.Parent = self.Main
+
+self.Frame_7.Parent = self.Main
+self.Frame_7.BackgroundColor3 = Color3.fromRGB(252, 172, 255)
+self.Frame_7.BorderSizePixel = 0
+self.Frame_7.Position = UDim2.new(0.000918956299, 0, 0.0102827288, 0)
+self.Frame_7.Size = UDim2.new(0, 1, 0, 18)
+self.Frame_7.ZIndex = 3
+
+self.TextButton.Parent = self.Main
+self.TextButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.TextButton.BackgroundTransparency = 1.000
+self.TextButton.BorderSizePixel = 0
+self.TextButton.Position = UDim2.new(0.0806456134, 0, -0.0162929967, 0)
+self.TextButton.Size = UDim2.new(0, 81, 0, 18)
+self.TextButton.ZIndex = 2
+self.TextButton.Font = Enum.Font.SourceSansSemibold
+self.TextButton.Text = "Main"
+self.TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+self.TextButton.TextSize = 14.000
+self.TextButton.TextXAlignment = Enum.TextXAlignment.Left
+
+self.AntiAim.Name = "Anti-Aim"
+self.AntiAim.Parent = self.Frame_5
+self.AntiAim.Active = true
+self.AntiAim.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.AntiAim.BorderSizePixel = 0
+self.AntiAim.Position = UDim2.new(0.0532789528, 0, 0.136544645, 0)
+self.AntiAim.Selectable = true
+self.AntiAim.Size = UDim2.new(0, 89, 0, 18)
+
+self.UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+self.UIGradient_2.Parent = self.AntiAim
+
+self.Frame_8.Parent = self.AntiAim
+self.Frame_8.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
+self.Frame_8.BorderSizePixel = 0
+self.Frame_8.Position = UDim2.new(0.000918956299, 0, 0.0102827288, 0)
+self.Frame_8.Size = UDim2.new(0, 1, 0, 18)
+self.Frame_8.ZIndex = 3
+
+self.TextButton_2.Parent = self.AntiAim
+self.TextButton_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+self.TextButton_2.BackgroundTransparency = 1.000
+self.TextButton_2.BorderSizePixel = 0
+self.TextButton_2.Position = UDim2.new(0.0806456134, 0, -0.0162929967, 0)
+self.TextButton_2.Size = UDim2.new(0, 81, 0, 18)
+self.TextButton_2.ZIndex = 2
+self.TextButton_2.Font = Enum.Font.SourceSansSemibold
+self.TextButton_2.Text = "Anti-Aim"
+self.TextButton_2.TextColor3 = Color3.fromRGB(145, 145, 145)
+self.TextButton_2.TextSize = 14.000
+self.TextButton_2.TextXAlignment = Enum.TextXAlignment.Left
+
+self.UIAspectRatioConstraint_5.Parent = self.Frame_4
+self.UIAspectRatioConstraint_5.AspectRatio = 1.654
+
+self.UIAspectRatioConstraint_6.Parent = self.Frame_3
+self.UIAspectRatioConstraint_6.AspectRatio = 1.654
+
+self.accentbar.Name = "accentbar"
+self.accentbar.Parent = self.Frame_2
+self.accentbar.BackgroundColor3 = Color3.fromRGB(252, 172, 255)
+self.accentbar.BorderSizePixel = 0
+self.accentbar.Size = UDim2.new(0, 419, 0, 1)
+
+self.UIAspectRatioConstraint_7.Parent = self.accentbar
+self.UIAspectRatioConstraint_7.AspectRatio = 419.000
+
+self.UIAspectRatioConstraint_8.Parent = self.Frame_2
+self.UIAspectRatioConstraint_8.AspectRatio = 1.581
+
+
+-- Scripts:
+local function PISQ_fake_script() -- Outer.LocalScript 
+	local script = Instance.new('LocalScript', self.Outer)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(PISQ_fake_script)()
